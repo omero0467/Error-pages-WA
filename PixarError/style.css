@@ -1,0 +1,165 @@
+@font-face {
+  font-family: brandon-reg;
+  src: url(fonts/Brandon_reg.otf);
+}
+@font-face {
+  font-family: brandon-bld;
+  src: url(fonts/Brandon_bld.otf);
+}
+@font-face {
+  font-family: brandon-light;
+  src: url(fonts/brandon_light.otf);
+}
+@font-face {
+  font-family: futura-pt;
+  src: url(fonts/FuturaPTLightOblique.otf);
+}
+
+header { 
+    max-width: 1225px;
+    margin: auto;
+    z-index: 1;
+}
+.navinner a {
+    text-decoration: none;
+    letter-spacing: .02;
+    color: rgb(64, 64, 64);
+}
+
+.content-layout {
+    margin: auto;
+    max-width: 1225px;
+}
+
+.content-outer {
+    position: absolute;
+    max-width: 1225px;
+    margin: auto;
+}
+
+.main-content {
+    position: relative;
+}
+
+.topleft {
+    float: left;
+    box-sizing: border-box;
+    width: 275px;
+    height: 28px;
+}
+
+.topright {
+    height: 18px;
+    position: relative;
+    top: 5;
+}
+
+.logo img {
+    float: left;
+    height: 26px;
+    max-width: 129px;
+    margin: 0;
+}
+
+.navitem {
+    display: inline-block;
+    padding: 9px 0 9px 0;
+    margin: 0 14px 0 14px;
+    color: #f4f4f4;
+}
+
+/* .topright.navinner.navitem a {
+    text-decoration: none;
+    color: #f4f4f4;
+} */
+
+.Headerinner {
+    margin: auto;
+    padding: 38px 118px 38px 118px;
+    background-color: #ffffff;
+}
+
+.imgwrapper {
+    margin-top: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+.imgwrapper img {
+    max-width: 100%;
+}
+
+.errortext p {
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+.errortext {
+  float: left;
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+    width: 60%;
+    display: block;
+}
+
+.content-outer {
+    position: relative;
+}
+
+.icons {
+    position: relative;
+    text-align: center;
+}
+
+footer i:hover {
+    color: lightgray;
+}
+footer i {
+    padding: 5px;
+}
+footer a {
+    font-family: futura-pt;
+    letter-spacing: .05em;
+    text-align: center;
+
+}
+.main-content{
+
+    padding: 180;
+}
+
+.directory {
+    position: relative;
+}
+.directory a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.directory a:hover {
+    position: relative;
+    text-decoration: underline;
+    color: rgb(179, 179, 179);
+}
+
+/* .spacerbox {
+    height: 10%;
+} */
+
+ p {
+  font-family: futura-pt;
+  letter-spacing: .05em;
+ }
+
+ h1 {
+  font-family: brandon-bld;
+  letter-spacing: .3em;
+  font-size: 200%;
+ }
+
+ header {
+  font-family: brandon-reg ;
+ }
+
+

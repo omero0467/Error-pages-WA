@@ -14,7 +14,10 @@
   font-family: futura-pt;
   src: url(fonts/FuturaPTLightOblique.otf);
 }
-
+@font-face {
+    font-family: brandon-gr;
+    src: url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?subset_id=2&fvd=n4&v=3);
+}
 @font-face {
     font-family: futura-ptlight;
     src: url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3);
@@ -124,9 +127,12 @@ footer i {
     padding: 5px;
 }
 footer a {
+    border-bottom: 1px solid rgba(29,29,29,.3) ;
     position: relative;
-    font-family: brandon-light;
-    letter-spacing: .05em;
+    font-family: brandon-gr;
+    font-size: 14px;
+    letter-spacing: .29em;
+    line-height: 1.7em;
     text-align: center;
 
 }
@@ -136,17 +142,18 @@ footer a {
 }
 
 .directory {
+    font-family: brandon-gr;
     position: relative;
 }
 .directory a {
     position: relative;
     text-decoration: none;
-    color: black;
+    color: rgba(29,29,29,.6);
 }
 .directory a:hover {
     position: relative;
-    text-decoration: underline;
-    color: rgb(179, 179, 179);
+    text-decoration: none;
+    color: rgba(29,29,29,.15);
 }
 
  p {
@@ -163,5 +170,15 @@ footer a {
  header {
   font-family: brandon-reg ;
  }
+
+  h3 {
+    color:  rgba(29,29,29,.6) ;
+    font-family: brandon-gr;
+    font-size: 14px;
+    letter-spacing: .29em;
+    line-height: 1.7em;
+    text-align: center;
+  }
+  
 
 

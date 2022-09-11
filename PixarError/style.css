@@ -15,6 +15,11 @@
   src: url(fonts/FuturaPTLightOblique.otf);
 }
 
+@font-face {
+    font-family: futura-ptlight;
+    src: url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3);
+}
+
 header { 
     max-width: 1225px;
     margin: auto;
@@ -145,7 +150,7 @@ footer a {
 }
 
  p {
-  font-family: futura-pt;
+  font-family: futura-ptlight;
   letter-spacing: .05em;
  }
 
